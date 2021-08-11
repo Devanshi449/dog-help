@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dog Saviours</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+</head>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+    body {
+        margin: 100px;
+        padding: 0px;
+        background: url('images/dogo1.png');
+        background-repeat: no-repeat;
+        /* background: url('images/foorprints.jpg'); */
+        /* background */
+        background-position: 900px 100px;
+        background-color: #f0cad8;
+
+    }
+
+    .left {
+        border: 4px solid black;
+        border-radius: 15px;
+        height: 70px;
+        position: absolute;
+        top: 3px;
+        left: 34px;
+        width: 19%;
+        background-color: black;
+        font-family: 'Pacifico', cursive;
+
+
+    }
+
+    .left img {
+        width: 46px;
+        text-align: center;
+        /* position: absolute; */
+        left: 100px;
+        filter: invert(100%);
+        margin: 0px 30px;
+
+
+    }
+
+
+    .left div {
+        color: white;
+        margin:-12px 2px;
+    }
+
+    .mid {
+        border: 4px solid black;
+        border-radius: 15px;
+        height: 65px;
+        width: 35%;
+        margin: 12px auto;
+        display: block;
+        position: absolute;
+        top: -10px;
+        left: 550px;
+        background-color: black;
+        font-family: 'Questrial', sans-serif;
+
+    }
+
+    .right {
+        /* border: 4px solid black; */
+        height: 55px;
+        position: absolute;
+        top: 3px;
+        right: 23px;
+        width: 200px;
+
+
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 17px;
+        margin: 7px 2px;
+
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 43px 23px;
+        color: white;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .btn {
+        color: white;
+        margin: 3px;
+        background-color: black;
+        height: 55px;
+        padding: 3px 12px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 13px;
+        font-family: 'Questrial', sans-serif;
+    }
+
+    .btn:hover {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 168px 10px;
+        height: 532px;
+        width: 750px;
+        border-radius: 16px;
+        font-family: 'Questrial', sans-serif;
+        background-color: black;
+
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 521px;
+        padding: 1px 5px;
+        margin: 3px 120px;
+        height: 45px;
+        font-family: 'Questrial', sans-serif;
+        border-radius: 10px;
+    }
+
+    #headline {
+        margin: 105px;
+        padding: 5px;
+        color: rgb(246 88 197);
+        text-align: center;
+    }
+
+    /* body{
+        background-color: rgb(210, 245, 175);
+        border:2px solid red
+    } */
+    #final {
+        margin: 1px 121px;
+        width: 536px
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="images/logo.jfif" alt="">
+            <div id='line'>The Dog Saviors</div>
+
+        </div>
+        <!-- for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Track location</a></li>
+            </ul>
+
+
+
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <h1 id='headline'>The best therapist comes with fur and four legs</h1>
+        <form action="noaction.php">
+            <div class='form-group'>
+                <input type="text" name='' placeholder='Enter your name'>
+            </div>
+            <div class='form-group'>
+                <input type="text" name='' placeholder='Enter your location'>
+            </div>
+            <div class='form-group'>
+                <input type="text" name='' placeholder='Enter your phone number'>
+            </div>
+            <button class=btn id='final'>Submit</button>
+        </form>
+
+    </div>
+    <!-- <div class='containercolor'>
+
+    </div> -->
+
+
+
+
+
+</body>
+
+</html>
